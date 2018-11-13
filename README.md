@@ -16,9 +16,11 @@ The following keywords currently have the functionality described.
 * **`as`** - perform primitive casting, disambiguate the specific trait containing
   an item, or rename items in `use` and `extern crate` statements.
   
-  *RPL FE*: [Casting Between Types (`as`)], [Universal Function Call Syntax (Angle-bracket Form)], [Associated Types];
+  *RPL FE*: [Casting Between Types (`as`)], [Universal Function Call Syntax (Angle-bracket Form)], [Associated Types]
   
-  *RR*: [Type cast expressions], [Trait objects], [Disambiguating Function Calls].
+  *RPL 2018E*: [Fully Qualified Syntax for Disambiguation: Calling Methods with the Same Name]
+  
+  *RR*: [Type cast expressions], [Trait objects], [Disambiguating Function Calls]
 * `break` - exit a loop immediately
 * `const` - define constant items or constant raw pointers
 * `continue` - continue to the next loop iteration
@@ -60,6 +62,8 @@ The following keywords currently have the functionality described.
 [Casting Between Types (`as`)]: https://doc.rust-lang.org/book/first-edition/casting-between-types.html#as
 [Universal Function Call Syntax (Angle-bracket Form)]: https://doc.rust-lang.org/book/first-edition/ufcs.html#angle-bracket-form
 [Associated Types]: https://doc.rust-lang.org/book/first-edition/associated-types.html
+
+[Fully Qualified Syntax for Disambiguation: Calling Methods with the Same Name]: https://doc.rust-lang.org/book/2018-edition/ch19-03-advanced-traits.html#fully-qualified-syntax-for-disambiguation-calling-methods-with-the-same-name
 
 [Type cast expressions]: https://doc.rust-lang.org/reference/expressions/operator-expr.html#type-cast-expressions
 [Trait objects]: https://doc.rust-lang.org/reference/types.html#trait-objects
