@@ -20,7 +20,7 @@ The following keywords currently have the functionality described.
   
   *RPL 2018E*: [Fully Qualified Syntax for Disambiguation: Calling Methods with the Same Name]
   
-  *RR*: [Type cast expressions], [Trait objects], [Disambiguating Function Calls]
+  *RR*: [Type cast expressions], [Trait objects], [Disambiguating Function Calls], [Type coercions]
 * `break` - exit a loop immediately
 * `const` - define constant items or constant raw pointers
 * `continue` - continue to the next loop iteration
@@ -68,6 +68,7 @@ The following keywords currently have the functionality described.
 [Type cast expressions]: https://doc.rust-lang.org/reference/expressions/operator-expr.html#type-cast-expressions
 [Trait objects]: https://doc.rust-lang.org/reference/types.html#trait-objects
 [Disambiguating Function Calls]: https://doc.rust-lang.org/reference/expressions/call-expr.html#disambiguating-function-calls
+[Type coercions]: https://doc.rust-lang.org/reference/type-coercions.html
 
 ### Reserved for Future Use
 
